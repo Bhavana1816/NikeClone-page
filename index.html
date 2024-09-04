@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="nav-part-1">
+                <img src="data:image/png;base64,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" alt="logo">
+                <ul>
+                    <li>Home</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Collection</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="nav-part-2">
+                <i class="ri-search-line"></i>
+                <i class="ri-shopping-cart-2-line"></i>
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <h5>Explore limited edition</h5>
+                <h1>Nike limited edition</h1>
+                <p>Unleash the extraordinary. Elevate your game with Nike's Limited Edition. Where innovation meets style, leaving a lasting mark. Just do it.</p>
+                <button class="btn">Shop now</button>
+            </div>
+            <div class="content-right">
+                <div class="product">
+                    <img src="images/air-max-1-lx-shoes.png" alt="nike shoes">
+                    <h4>Nike Air max 1</h4>
+                    <p class="catagory">Men's shoes</p>
+                    <p class="color">Color: white</p>
+                    <p class="price">₹ 14 995</p>
+                </div>
+                <div class="product">
+                    <img src="images/air-peg-2k5-shoes.png" alt="nike shoes">
+                    <h4>Nike Air peg 2K5</h4>
+                    <p class="catagory">Men's shoes</p>
+                    <p class="color">Color: white</p>
+                    <p class="price">₹ 13 995</p>
+                </div>
+                <div class="product">
+                    <img src="images/lunar-roam-shoes.png" alt="nike shoes">
+                    <h4>Nike lunar roam</h4>
+                    <p class="catagory">Men's shoes</p>
+                    <p class="color">Color: sleepy blue</p>
+                    <p class="price">₹ 15 995</p>
+                </div>
+                <div class="product">
+                    <img src="images/nocta-glide-shoes.png" alt="nike shoes">
+                    <h4>Nike nocta glide</h4>
+                    <p class="catagory">Men's shoes</p>
+                    <p class="color">Color: white</p>
+                    <p class="price">₹ 12 995</p>
+                </div>
+                <div class="product">
+                    <img src="images/terminator-high-shoes.png" alt="nike shoes">
+                    <h4>Nike Terminator high</h4>
+                    <p class="catagory">Men's shoes</p>
+                    <p class="color">Color: sleepy blue</p>
+                    <p class="price">₹ 15 995</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
